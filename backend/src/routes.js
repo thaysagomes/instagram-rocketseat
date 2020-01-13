@@ -16,5 +16,7 @@ const routes = new express.Router();
 //parâmetros contém a rota, o upload da imagem (single, pois é apenas um arquivo e o campo que está essa imagem) e o método do controller responsável por desempenhar a função
 routes.post('/posts', upload.single('image'), PostController.store);
 
+//criação da rota get para listagem das postagens
+routes.get('/posts', PostController.index);
 
 module.exports = routes;
