@@ -1,0 +1,58 @@
+#post-list {
+    width: 45%;
+    margin: 0 auto;
+    background: white;
+    padding: 35px;
+}
+
+article {
+    border: 1px solid #DDD;
+    margin-bottom: 60px;
+}
+
+section#post-list article header {
+    padding: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.place {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #666;
+}
+
+section#post-list article > img {
+    width: 100%;
+}
+
+section#post-list article footer {
+    padding: 20px;
+}
+
+.actions {
+    margin-bottom: 10px;
+}
+
+section#post-list article footer .actions img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+section#post-list article footer p {
+    font-size: 13px;
+    margin-top: 2px;
+    line-height: 18px;
+}
+
+section#post-list article footer p span {
+    color: rgb(74, 54, 189);
+    display: block;
+}
