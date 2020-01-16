@@ -1,8 +1,7 @@
 #post-list {
     width: 45%;
     margin: 0 auto;
-    background: white;
-    padding: 35px;
+    margin-top: 35px;
 }
 
 article {
@@ -15,6 +14,7 @@ section#post-list article header {
     display:flex;
     align-items: center;
     justify-content: space-between;
+    background: white;
 }
 
 .user-info {
@@ -34,6 +34,7 @@ section#post-list article > img {
 
 section#post-list article footer {
     padding: 20px;
+    background: white;
 }
 
 .actions {
